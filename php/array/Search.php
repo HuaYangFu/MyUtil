@@ -1,9 +1,9 @@
-<? php
-namespace util/array;
+<?php
+namespace array\search;
 
 class Search{
 
-    public static function findArrMiss($arr, $brr) {
+    public function findArrMiss($arr, $brr) {
         
         sort($arr);
         sort($brr);

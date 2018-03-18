@@ -1,14 +1,14 @@
-<? php
-namespace util/array;
+<?php
+namespace array\post;
 
 class Post{
 
-    public static function filterPostEmptyValue($post) {
+    public function filterPostEmptyValue($post) {
  		$filterpost = array_filter($post); 
     	return $filterpost;
     }
 
-    public static function arrayUpdateBYpost($post,$oldarr) {
+    public function arrayUpdateBYpost($post,$oldarr) {
     	$filterpost = Post::filterPostEmptyValue($post);
     	$filterpost2 = Post::arrayDeleteNotNeed($filterpost);
     	foreach($filterpost2 as $key => $value){
@@ -16,7 +16,7 @@ class Post{
         }
     }
 
-    public static function arrayDeleteNotNeed($post) {
+    public function arrayDeleteNotNeed($post) {
     	unset($post['csrf']);
     }
 

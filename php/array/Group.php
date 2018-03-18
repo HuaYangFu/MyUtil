@@ -1,9 +1,9 @@
-<? php
-namespace util/array;
+<?php
+namespace array\group;
 
 class Group{
 
-    public static function arrayGroupByKey($array,$key)
+    public function arrayGroupByKey($array,$key)
     {
         $result = array();
         foreach ($array as $data) {

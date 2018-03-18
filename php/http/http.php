@@ -1,7 +1,7 @@
-<? php
-namespace util/http;
+<?php
+namespace http\http;
 
-class http{
+class Http{
 
     public static function sendGet($url,$data)
     {
