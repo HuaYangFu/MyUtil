@@ -1,5 +1,6 @@
 <?php
 namespace file\excel;
+require 'vendor/autoload.php';
 
 class Excel{
 

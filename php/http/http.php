@@ -6,7 +6,7 @@ class Http{
     public static function sendGet($url,$data)
     {
         if($data != ''){
-            $url = $url.'?'.http_build_query($data)
+            $url = $url.'?'.http_build_query($data);
         }
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL,$url);

@@ -1,5 +1,5 @@
 <?php
-namespace array\search;
+namespace arr\search;
 
 class Search{
 

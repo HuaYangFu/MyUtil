@@ -1,5 +1,5 @@
 <?php
-namespace array\post;
+namespace arr\post;
 
 class Post{
 

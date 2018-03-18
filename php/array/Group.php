@@ -1,5 +1,5 @@
 <?php
-namespace array\group;
+namespace arr\group;
 
 class Group{
 
